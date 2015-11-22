@@ -47,15 +47,36 @@ ul.menu li.active a {
 }
 
 
+input.simple {
+	border: 1px solid lightgrey;
+	margin:0;
+	
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:1;
+	
+	/* Browsers have different default form fonts */
+	font-size:13px;
+}
 
+input.simple:focus {
+	border: 1px solid lightgrey;
+}
 
 /* FRAMEWORD CUSTOMIZATION */
 
 .container {
-	padding-top: 100px;
+	padding-top: 70px;
 }
 
 
 .row {
 	margin-bottom: 0;
+}
+
+table {
+	line-height: 0.5em;
 }

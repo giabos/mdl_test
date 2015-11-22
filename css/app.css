@@ -1,0 +1,61 @@
+
+header {
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	background-color: DarkSlateGray;
+	z-index: 999;
+}
+
+header h1 {
+	color: white;
+	font-size: 3em;
+	position: absolute;
+	top: -20px;
+	left: 20px;
+	
+}
+
+
+ul.menu {
+	padding: 0 0;
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	right: 30px;
+	bottom: -15px;
+}
+
+ul.menu li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+ul.menu li.active {
+	background-color: white;
+	color: black;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	color: white;
+}
+
+ul.menu li.active a {
+	color: black;
+}
+
+
+
+
+/* FRAMEWORD CUSTOMIZATION */
+
+.container {
+	padding-top: 100px;
+}
+
+
+.row {
+	margin-bottom: 0;
+}
